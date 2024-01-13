@@ -1,69 +1,46 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
-	navItems: [
-		{
-			label: "Home",
-			href: "/",
-		},
+  name: `Cvijan's portfolio`,
+  description:
+    'Cvijan Djukanovic portfolio website. I am a full stack developer with a passion for building beautiful and functional websites and optimized applications.',
+  navItems: [
     {
-      label: "Docs",
-      href: "/docs",
+      label: 'About Me',
+      href: '#about',
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: 'Projects',
+      href: '#projects',
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: 'Stack',
+      href: '#stack',
     },
     {
-      label: "About",
-      href: "/about",
-    }
-	],
-	navMenuItems: [
-		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
-		},
-		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
-	],
-	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
-	},
+      label: 'Contact',
+      href: '#contact',
+    },
+  ],
+  navMenuItems: [
+    {
+      label: 'About Me',
+      href: '#about',
+    },
+    {
+      label: 'Projects',
+      href: '#projects',
+    },
+    {
+      label: 'Stack',
+      href: '#stack',
+    },
+    {
+      label: 'Contact',
+      href: '#contact',
+    },
+  ],
+  links: {
+    github: 'https://github.com/cvijandj',
+  },
 };

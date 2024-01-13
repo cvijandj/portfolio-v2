@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#stack {
+  clip-path: polygon(50% 10vh, 0 0, 0 100%, 100% 100%, 100% 0);
+}
+/* pretty scroll and smooth scroll on whole page */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #88888885;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a85;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5555559d;
+}
+
+.paypalButtonContainer {
+  background-color: transparent;
+}
