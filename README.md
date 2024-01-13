@@ -1,11 +1,12 @@
-# Next.js & NextUI Template
+# Next.js porfolio website
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+This is a portfolio website built with Next.js and Tailwind CSS.
+It is designed and made for personal use to showcase my projects and skills and make it easier for people to contact me. I find it to be a 
+better way to showcase my skills than a traditional resume.
 
 ## Technologies Used
 
 - [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -17,24 +18,32 @@ This is a template for creating applications using Next.js 13 (app directory) an
 
 ### Use the template with create-next-app
 
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
 ### Install dependencies
 
 ```bash
-npm install
+yarn install
 ```
 
 ### Run the development server
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-## License
+### Build for production
 
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+```bash
+yarn build
+```
+
+### Run the production server
+
+```bash
+yarn start
+```
+
+### Lint the code
+
+```bash
+yarn lint
+```
