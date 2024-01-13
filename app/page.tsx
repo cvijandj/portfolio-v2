@@ -71,7 +71,7 @@ export default function Home() {
         <Divider className="my-5" />
         <section
           id="contact"
-          className="flex mt-10 flex-col items-center justify-center gap-4  md:py-10"
+          className="flex mt-10 flex-col mb-5 items-center justify-center gap-4  md:py-10"
         >
           <h1 className="text-5xl text-white mb-10 font-bold">Contact</h1>
           <p className=" text-lg text-white opacity-40 ">
